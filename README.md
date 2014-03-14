@@ -7,7 +7,7 @@ A simple app for experimenting with [Grid Style Sheets]
 Getting Started
 ---------------
 
-This project uses [Gulp]. In order to work on the site, you must first install
+This project uses [Gulp]. In order to get started, you must first install
 [nodejs] and [bower]. Then:
 
 1. Install dependencies using `npm install && bower install`

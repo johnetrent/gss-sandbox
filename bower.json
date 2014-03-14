@@ -1,0 +1,20 @@
+{
+  "name": "gss-sandbox",
+  "version": "0.0.1",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "animate.css": "~3.1.x",
+    "bedrock": "~1.x",
+    "normalize-css": "~3.0.x",
+    "jquery": "~2.1.x",
+    "gss": "*",
+    "mrmrs-colors": "~0.2.0"
+  }
+}

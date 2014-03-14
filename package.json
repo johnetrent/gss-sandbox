@@ -1,0 +1,44 @@
+{
+  "name": "thinkwednesday",
+  "version": "0.0.1",
+  "description": "An app for generating the static version of http://www.pbs.org/thinkwednesday",
+  "main": "index.js",
+  "dependencies": {
+    "gulp-autoprefixer": "~0.0.x",
+    "gulp": "~3.5.x",
+    "gulp-clean": "~0.2.x",
+    "gulp-concat": "~2.1.x",
+    "gulp-if": "~0.0.x",
+    "gulp-exec": "~1.0.x",
+    "gulp-csso": "~0.2.x",
+    "gulp-svgmin": "~0.4.x",
+    "gulp-uglify": "~0.2.x",
+    "gulp-imagemin": "~0.1.x",
+    "optimist": "~0.6.x",
+    "gulp-util": "~2.2.x",
+    "webpack": "~1.1.x",
+    "gulp-less": "~1.2.x",
+    "gulp-plumber": "~0.5.x",
+    "path": "~0.4.x",
+    "gulp-livereload": "~1.2.x",
+    "tiny-lr": "~0.x",
+    "connect-livereload": "~0.3.x",
+    "express": "~3.4.x",
+    "gulp-htmlmin": "~0.1.x",
+    "gulp-include": "~0.2.x",
+    "gulp-modernizr": "git://github.com/doctyper/gulp-modernizr.git",
+    "coffee-loader": "^0.7.0",
+    "expose-loader": "^0.5.2",
+    "imports-loader": "^0.6.2",
+    "gulp-changed": "^0.2.1",
+    "gulp-gss": "git://github.com/johnetrent/gulp-gss.git",
+    "ejs": "~0.8.5"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.7.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://www.github.com/hzdg/pbs.org-thinkwednesday"
+  }
+}

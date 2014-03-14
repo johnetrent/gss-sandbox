@@ -1,0 +1,74 @@
+/* vars */
+
+[gap] == 15 !require;
+
+body {
+	background: #dddddd;
+}
+
+.content-block {
+	width: == ::parent[width];
+	width: <= 1200;
+	height: == ::parent[height];
+	center-x: == ::parent[center-x];
+	center-y: == ::parent[center-y];
+}
+
+#header {
+	background: #0074D9;
+	top: == ::window[top];
+	width: == ::window[width];
+	height: == 150;
+
+	h1 {
+		line-height: == ::parent[height];
+	}
+
+	ul {
+		line-height: == ::parent[height];
+		list-style: none;
+		right: == ::parent[right];
+		width: >= 500;
+
+		li {
+			font-size: 0;
+			display: inline-block;
+			width: == ::parent[width] / 5;
+		}
+
+		li a {
+			font-size: 14px;
+			color: white;
+			font-weight: bold;
+			text-decoration: none;
+		}
+	}
+	
+}
+
+@horizontal |[li]| in (#header ul);
+
+#content {
+	background: white;
+	width: == ::window[width] - 480;
+	width: <= 1600;
+	height: <= ::window[height] - 480;
+	height: >= 300 !require;
+	center-x: == ::window[center-x];
+	center-y: == ::window[center-y];
+}  
+
+@horizontal |-[#c1]-[#c2]-[#c3]-[#c4]-| in(#content) gap([gap]);
+
+.column {
+	width: <= ::parent[width] / 4;
+	height: == ::[width];
+	color: white;
+	line-height: == ::[height];
+	text-align: center;
+	center-y: == ::window[center-y];
+	font-size: == ::[width] / 2;
+}
+
+
+
